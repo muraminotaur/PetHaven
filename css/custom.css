@@ -135,7 +135,7 @@ FORM
   text-align: center;
   display: block;
   position: relative;
-  top: 30px;
+  top: -10px;
 }
 
 /* --------------------------------------
@@ -349,22 +349,17 @@ SECTION: TESTIBLOCK
   padding-bottom: 60px;
   background: #f2f2f2 bottom center no-repeat;
 }
+
+
 .subpageblock h1{
-  background: url(../images/PngItem_1120581.png) 0 0 no-repeat;
-  background-size: 100% 100%;
-  margin: 0px 80px 50px 80px;
-  color: #42A68A;
+  background: #42A68A;
+  padding: 50px 0;
   text-align: center;
-  padding: 20px 0;
-  line-height: 80px;
+  color: #fff;
   font-size: 48px;
-  letter-spacing: 10px;
   text-transform: uppercase;
-  position: relative;
-  top: -30px;
-  z-index: 5000;
-  max-width: 2000px;
-  font-family: 'OswaldHeavy', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 8px;
 }
 .testislider.owl-carousel .owl-nav .owl-prev,
 .testislider.owl-carousel .owl-nav .owl-next,
@@ -557,7 +552,7 @@ Donate
   text-align: center;
   margin-bottom: 70px;
   font-weight: bold;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 .contactnum p span{
   background: url(../images/icon_call_big.png) 0 0 no-repeat;
@@ -569,7 +564,7 @@ Donate
  color: #6d6e71;
 }
 .sideform{
-  background-color: #273372;
+  background-color: #F0A315;
   padding: 40px 50px 0 50px;
   position: relative;
   top: -200px;
@@ -580,11 +575,27 @@ Donate
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-family: 'OswaldDemibold', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 48px;
 }
 .hideme{
   display: none;
+}
+/*---------------------------------------
+FOOTER
+-----------------------------------------*/
+footer .logoside{
+  padding: 50px;
+}
+footer .logos{
+ display: flex;
+ justify-content: right;
+ align-items: center;
+ padding-top: 30px;
+}
+footer .logos img{
+  width: auto;
+  margin: 0 10px;
 }
 
 /*---------------------------------------
@@ -618,18 +629,31 @@ DONATION BUTTON
 }
 
 /*---------------------------------------
-FOOTER
+DONATION BUTTON 2
 -----------------------------------------*/
-footer .logoside{
-  padding: 50px;
+.donatebutton2{
+  border:none;
+  padding: 15px;
+  min-height: 60px;
+  min-width: 180px;
+  color:#FFF;
+  background-color: #5cc4a6;
+  font-size: 30px;
+
+  -webkit-transition: background-color 0.5s;
 }
-footer .logos{
- display: flex;
- justify-content: right;
- align-items: center;
- padding-top: 30px;
+
+.donatebutton2:hover{
+  border:none;
+  background-color: #ceede4;
+  -webkit-transition: background-color 0.5s;
 }
-footer .logos img{
-  width: auto;
-  margin: 0 10px;
+
+.donatebutton2:focus{
+  border:#42A68A;
+  border-radius:10px;
+}
+
+.donatebutton2:active{
+  background-color:#5cc4a6;
 }
